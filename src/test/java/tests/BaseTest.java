@@ -32,6 +32,8 @@ public class BaseTest {
 	@BeforeSuite
 	public void init() throws IOException, InterruptedException {
 		
+		
+		System.out.println("******************");
 		//step-1 
 		WebDriverManager.chromedriver().setup();
 		
